@@ -13,3 +13,11 @@ and stores it in the firebase. You will receive an email containing pics of the 
 4. Smartphone with Android OS
 5. Jumper Wires
 6. Power Supply
+
+## Running the project
+1. Connect the RPi to the external power source,insert the pi camera in the pi camera slot on the Rpi,connect the PIR sensor to few of the GPIO pins on the Rpi using jumper wires
+2. Install the "Security System" apk on your Android smartphone.
+3. Enter your email and password to link your email account for receiving images.
+4. Run the python code on any IDE on the RPi
+5. After the code starts running, the PIR sensor turns ON, any motion detected by the PIR sensor will trigger the pi camera and an image will be captured.
+6. The captured image will be sent to your Android app as the image is stored in the firebase.
