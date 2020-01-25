@@ -39,6 +39,6 @@ while True:
 
         server = smtplib.SMTP('smtp.gmail.com',587)
         server.starttls()
-        server.login(user = 'senderpi1245@gmail.com',password='sender#pi@12')
+        server.login(user = 'email@gmail.com',password='password')
         server.send_message(msg)
         server.quit()
